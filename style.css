@@ -89,7 +89,7 @@ header {
 }
 
 .hero-image {
-    background-image: url("C:/Users/polej/OneDrive/Počítač/Úvod do HTML a CSS/Fotky/beach.jpg");
+    background-image: url("Fotky/beach.jpg"); /* Zmena na relatívnu cestu */
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
