@@ -1,0 +1,195 @@
+body {
+    font-family: "Poppins", system-ui;
+    font-style: normal;
+    line-height: 1.7;
+    background-color: #f0dfcc;
+    color: #233349; 
+}
+
+h1 {
+    color: #9eafb6;
+    font-family: "Pacifico", cursive; 
+    font-weight: 400;
+    font-style: normal;
+    font-size: 64px;
+}
+
+h2 {
+    color: #A8512F;
+    font-weight: 800;
+    font-size: 30px;  
+    line-height: 1; 
+    text-align: center;
+}
+
+h3 {
+    color: #a8512d;
+    font-weight: 400;
+    line-height: 1;
+    text-align: center;
+}
+
+h4 {
+    color: #c4772a;
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 1.5;
+    text-align: center;
+}
+
+p, ul, a {
+    font-weight: 400;
+    font-size: 15px;
+    text-align: justify;
+}
+
+.skola, .omne, .znalost {
+    background-color: #d3a292;
+    border-radius: 10%; 
+}
+
+.hobby img {
+    width: 70px; 
+    height: 70px; 
+    object-fit: cover;
+    margin: 0 1cm;
+}
+
+.hobby {
+    display: flex; 
+    justify-content: center; 
+    align-items: center; 
+    margin: 0 1cm;
+}
+
+.hobby h2 {
+    text-align: left; 
+    margin-bottom: 10px; 
+}
+
+.kontakt {
+    display: flex; 
+    justify-content: center; 
+    align-items: center; 
+    background-color: whitesmoke;
+}
+
+.kontakt img {
+    width: 40px;  
+    height: 40px; 
+    object-fit: contain; 
+    margin: 0 1cm; 
+}
+
+header {
+    position: relative;
+    height: 400px; 
+    width: 100%;
+    text-align: center;
+}
+
+.hero-image {
+    background-image: url("C:/Users/polej/OneDrive/Počítač/Úvod do HTML a CSS/Fotky/beach.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 1;
+}
+
+.profile-container {
+    position: relative;
+    z-index: 2;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    top: 50%; 
+    transform: translateY(-50%);
+}
+
+.profile-pic {
+    max-width: 15%; 
+    height: auto; 
+    border-radius: 50%;
+    border: 5px solid white; 
+    object-fit: cover;
+}
+
+h1 {
+    margin-top: 20px;
+    font-family: "Pacifico", cursive;
+    font-size: 36px;
+    color: #abc6eb;
+}
+
+footer {
+    display: flex; 
+    justify-content: center; 
+    align-items: center; 
+    padding: 20px;
+    width: 100%; 
+    margin-bottom: 5px; 
+}
+
+
+.content-container {
+    display: flex; 
+    justify-content: space-between; 
+    margin: 1.5cm auto; 
+    width: 80%; 
+}
+
+
+.omne {
+    background-color:  #f0dfcc;
+    border: 5px solid #d3a292;
+    padding: 0.5cm; 
+    padding-left: 1cm;
+    padding-right: 1cm;
+    margin-right: 2cm; 
+    margin-left: 2cm;
+    margin-top: 1cm;
+    border-radius: 0%; 
+    text-align: center; 
+    color: #5e708a !important;}
+
+.skola {
+    background-color:#f0dfcc;
+    margin-left: 2cm;
+    margin-right: 2cm;
+    text-align: left; 
+    display: inline-block; 
+    width: 30%;
+}
+
+.znalost {
+    background-color: #d3a292;
+    padding: 1cm; 
+    width: 30%;
+    text-align: right; 
+    display: inline-block; 
+    border-radius: 10%; 
+    margin-left: 3cm;
+    margin-top: 1cm;
+    margin-right: 2cm;
+    color: white;
+}
+
+.hobby, footer {
+    margin-top: 2cm;
+}
+
+.znalost, .skola, .praca {
+    margin-top: 1cm; 
+}
+
+.praca {
+    margin: 1cm auto; 
+    width: 90%; 
+    border-radius: 10%; 
+    text-align: center; 
+}
